@@ -1,0 +1,18 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Create Page
+{% endblock %}
+
+{% block body %}
+    <div class="form-group">
+        <label for="create">New Title: </label>
+        <input type="text" name="create" id="title">
+
+        <label for="markdown">Content: </label>
+        <textarea name="markdown" id="text" cols="10" rows="10"></textarea>
+
+        <input type="submit" value="Save changes">
+
+    </div>
+{% endblock %}
